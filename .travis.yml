@@ -20,3 +20,7 @@ before_script:
 # use the $DB env variable to determine the phpunit.xml to use
 script: phpunit --configuration phpunit.xml --coverage-text
 
+notifications:
+  email:
+    - sf.n.ishihara+travis-ci@gmail.com
+
