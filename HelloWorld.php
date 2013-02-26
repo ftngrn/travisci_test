@@ -16,7 +16,7 @@ class HelloWorld
     {
         $sql = "INSERT INTO hello VALUES (" . $this->pdo->quote($what) . ")";
         $this->pdo->query($sql);
-        return "Hello $what";
+        return 'Hello $what';
     }
 
 
